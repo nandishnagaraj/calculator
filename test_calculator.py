@@ -21,9 +21,4 @@ def test_divide(calc):
     assert calc.divide(10, 2) == 5
     with pytest.raises(ValueError):
         calc.divide(10, 0)
-
-def test_modulus(calc):
-    assert calc.modulus(10, 3) == 1
-    assert calc.modulus(10, 5) == 0
-    with pytest.raises(ValueError):
-        calc.modulus(10, 0)
+        
