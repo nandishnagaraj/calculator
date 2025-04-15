@@ -21,4 +21,3 @@ def test_divide(calc):
     assert calc.divide(10, 2) == 5
     with pytest.raises(ValueError):
         calc.divide(10, 0)
-        
